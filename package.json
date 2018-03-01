@@ -1,0 +1,35 @@
+{
+  "name": "react-unstated-todomvc",
+  "description": "TodoMVC app in Unstated and React",
+  "author": "xxhomey19",
+  "license": "MIT",
+  "homepage": "https://xxhomey19.github.io/react-unstated-todomvc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxhomey19/react-unstated-todomvc/tree/master"
+  },
+  "bugs": {
+    "url": "https://github.com/xxhomey19/react-unstated-todomvc/issues"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "gh-pages": "^1.1.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "todomvc-app-css": "^2.1.0",
+    "unstated": "^1.0.3"
+  },
+  "devDependencies": {
+    "react-scripts": "^1.1.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
